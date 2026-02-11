@@ -22,6 +22,44 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+/*
+  Gonna separate the MODS from everything else for my own sake
+*/
+.modal {
+  display: flex;
+  padding: 18px;
+  gap: 18px;
+}
+
+.box {
+  flex: auto;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.icon{
+  flex: none;
+}
+
+/*
+  End of separation
+*/
+
 .icon {
   color: royalblue;
   font-size: 26px;
