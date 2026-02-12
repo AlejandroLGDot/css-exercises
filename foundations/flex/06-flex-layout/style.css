@@ -58,7 +58,7 @@ body {
 
 a{
   text-decoration: none;
-  color: #666;
+  color: #666; /* Took this from SOLUTION.css */
 }
 
 .content {
