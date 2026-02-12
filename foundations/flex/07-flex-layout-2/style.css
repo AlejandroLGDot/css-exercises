@@ -27,3 +27,67 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* MODIFICATIONS - Separated for my own sake - NOT RECOMMENDED FOR FIELD WORK */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 16px;
+}
+
+.content {
+  display: flex;
+  flex: auto;
+}
+
+.sidebar {
+  flex: none;
+  max-width: 300px;
+  padding: 16px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  gap: 16px;
+}
+
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Small BONUS */
+a:hover {
+  color: #eee;
+}
+
+.side-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 250px;
+  margin: 48px;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Tip from Random in Stack Overflow */
+}
